@@ -1,0 +1,96 @@
+2015-04-28T22:17:27  *** Timing information for refreshCachedValues: real(0.022464) thread(kernel=0, user=0) process(kernel=0, user=0)
+2015-04-28T22:17:27  *** Timing information for CRPTProxy::unloadCRPT: real(0) thread(kernel=0, user=0) process(kernel=0, user=0)
+2015-04-28T22:17:27  *** Timing information for CRPTProxy::loadCRPT: real(0.001954) thread(kernel=0, user=0) process(kernel=0, user=0)
+2015-04-28T22:17:30  *** Timing information for CRPTProxy::updateFrom: real(2.56091) thread(kernel=0.078125, user=0.03125) process(kernel=0.109375, user=0.109375)
+2015-04-28T22:17:30  *** Timing information for CRPTProxy::createFrom: real(2.56872) thread(kernel=0.078125, user=0.03125) process(kernel=0.109375, user=0.109375)
+2015-04-28T22:17:30  *** Timing information for END 20001: real(7.03712) thread(kernel=0.09375, user=0.171875) process(kernel=0.140625, user=0.265625)
+2015-04-28T22:28:05  BEGIN run 20002
+2015-04-28T22:28:05  Run started in software period 1
+2015-04-28T22:28:05  Setting up DAE
+2015-04-28T22:28:05  Highest dae, detector card, crate number used = 0, 5, 5
+2015-04-28T22:28:05  Number of time regimes = 1
+2015-04-28T22:28:05  CRPT memory used for histograms = 9 Mb
+2015-04-28T22:28:05  Number of periods (daq, total) = (1, 1)
+2015-04-28T22:28:05  Resetting DAE - ignore veto counter values as not yet cleared
+2015-04-28T22:28:06  FIFO Veto is ENABLED (vetoed 0) frames
+2015-04-28T22:28:06  SMP (chopper) Veto is ENABLED (vetoed 190) frames
+2015-04-28T22:28:06  Fermi Chopper0 Veto is ENABLED (vetoed 153033) frames
+2015-04-28T22:28:06  TS2 Pulse Veto is ENABLED (vetoed 153004) frames
+2015-04-28T22:28:06  ISIS 50 Hz Veto is DISABLED (counted 76) frames
+2015-04-28T22:28:06  External Veto 0 is ENABLED (vetoed 12) frames
+2015-04-28T22:28:06  External Veto 1 is ENABLED (vetoed 0) frames
+2015-04-28T22:28:06  External Veto 2 is ENABLED (vetoed 0) frames
+2015-04-28T22:28:06  External Veto 3 is DISABLED (counted 0) frames
+2015-04-28T22:28:06  Starting clear of DAE memory, thread ID 2152
+2015-04-28T22:28:07  Finished clear of DAE memory
+2015-04-28T22:28:07  Programming Time channels
+2015-04-28T22:28:07  Global Frame sync delay = 0 us
+2015-04-28T22:28:07  Electronics delay = 7 clock pulses
+2015-04-28T22:28:07  Setting 2624 time channels from 4.781250 to 19999.781250 us on card 1
+2015-04-28T22:28:07  Setting FS delay on DC 1 to 0 us
+2015-04-28T22:28:07  Setting 2624 time channels from 4.781250 to 19999.781250 us on card 2
+2015-04-28T22:28:07  Setting FS delay on DC 2 to 0 us
+2015-04-28T22:28:07  Setting 2624 time channels from 4.781250 to 19999.781250 us on card 3
+2015-04-28T22:28:07  Setting FS delay on DC 3 to 0 us
+2015-04-28T22:28:07  Setting 2624 time channels from 4.781250 to 19999.781250 us on card 4
+2015-04-28T22:28:07  Setting FS delay on DC 4 to 0 us
+2015-04-28T22:28:07  Setting 2624 time channels from 4.781250 to 19999.781250 us on card 5
+2015-04-28T22:28:07  Setting FS delay on DC 5 to 0 us
+2015-04-28T22:28:07  Programming POSLUT
+2015-04-28T22:28:07  Card: 1 DAE2 Highest: 4 DAE1 low: 1 DAE1 high: 4 NPOS: 4
+2015-04-28T22:28:07  MPOS: 0 to 0
+2015-04-28T22:28:07  MODN: 0 to 3
+2015-04-28T22:28:07  Card 1 using 52500 of 67108864 bytes of available histogram memory
+2015-04-28T22:28:07  Card: 2 DAE2 Highest: 256 DAE1 low: 5 DAE1 high: 260 NPOS: 256
+2015-04-28T22:28:07  MPOS: 0 to 15
+2015-04-28T22:28:07  MODN: 0 to 15
+2015-04-28T22:28:07  Card 2 using 2698500 of 134217728 bytes of available histogram memory
+2015-04-28T22:28:07  Card: 3 DAE2 Highest: 251 DAE1 low: 261 DAE1 high: 511 NPOS: 251
+2015-04-28T22:28:07  MPOS: 0 to 15
+2015-04-28T22:28:07  MODN: 0 to 15
+2015-04-28T22:28:07  Card 3 using 2646000 of 67108864 bytes of available histogram memory
+2015-04-28T22:28:08  Card: 4 DAE2 Highest: 251 DAE1 low: 512 DAE1 high: 762 NPOS: 251
+2015-04-28T22:28:08  MPOS: 0 to 15
+2015-04-28T22:28:08  MODN: 0 to 15
+2015-04-28T22:28:08  Card 4 using 2646000 of 67108864 bytes of available histogram memory
+2015-04-28T22:28:08  Card: 5 DAE2 Highest: 160 DAE1 low: 763 DAE1 high: 922 NPOS: 160
+2015-04-28T22:28:08  MPOS: 0 to 15
+2015-04-28T22:28:08  MODN: 0 to 9
+2015-04-28T22:28:08  Card 5 using 1690500 of 67108864 bytes of available histogram memory
+2015-04-28T22:28:08  Software periods enabled
+2015-04-28T22:28:08  (setting period card, if present, to 1 hardware period of 15000 frames)
+2015-04-28T22:28:08  No period card present
+2015-04-28T22:28:08  Setting vetos
+2015-04-28T22:28:08  Enabling FIFO veto
+2015-04-28T22:28:08  Enabling SMP veto
+2015-04-28T22:28:08  Enabling EXTERNAL veto 0
+2015-04-28T22:28:08  Enabling EXTERNAL veto 1
+2015-04-28T22:28:08  Enabling EXTERNAL veto 2
+2015-04-28T22:28:08  Disabling EXTERNAL veto 3
+2015-04-28T22:28:08  Enabling Fermi Chopper veto 0
+2015-04-28T22:28:08  Fermi chopper 0 delay,width (us) = 6615.500000,5.000000
+2015-04-28T22:28:08  Enabling TS2 Pulse veto
+2015-04-28T22:28:08  Disabling ISIS 50Hz veto
+2015-04-28T22:28:08  Clearing frames, vetos and PPP counters
+2015-04-28T22:28:08  *** Timing information for refreshCachedValues: real(0.025394) thread(kernel=0, user=0.015625) process(kernel=0, user=0.015625)
+2015-04-28T22:28:08  *** Timing information for BEGIN: real(2.32943) thread(kernel=0.03125, user=0.078125) process(kernel=0.046875, user=0.078125)
+2015-04-29T02:54:36  ENDing run 20002
+2015-04-29T02:54:36  *** Timing information for lockCRPT(): real(0.001953) thread(kernel=0, user=0.015625) process(kernel=0, user=0.015625)
+2015-04-29T02:54:36  FIFO Veto is ENABLED (vetoed 0) frames
+2015-04-29T02:54:36  SMP (chopper) Veto is ENABLED (vetoed 5891) frames
+2015-04-29T02:54:36  Fermi Chopper0 Veto is ENABLED (vetoed 158879) frames
+2015-04-29T02:54:36  TS2 Pulse Veto is ENABLED (vetoed 158817) frames
+2015-04-29T02:54:36  ISIS 50 Hz Veto is DISABLED (counted 39) frames
+2015-04-29T02:54:36  External Veto 0 is ENABLED (vetoed 26) frames
+2015-04-29T02:54:36  External Veto 1 is ENABLED (vetoed 0) frames
+2015-04-29T02:54:36  External Veto 2 is ENABLED (vetoed 0) frames
+2015-04-29T02:54:36  External Veto 3 is DISABLED (counted 0) frames
+2015-04-29T02:54:36  Run stopped in period 1 (DAQ 1), sequence 0
+2015-04-29T02:54:36  Good/Total uAH = 700.025513 / 700.136230
+2015-04-29T02:54:36  *** Timing information for stopDataCollection(): real(0.070323) thread(kernel=0, user=0) process(kernel=0, user=0)
+2015-04-29T02:54:36  *** Timing information for stopDataCollection(): real(0.083019) thread(kernel=0, user=0) process(kernel=0, user=0)
+2015-04-29T02:54:40  *** Timing information for CRPTProxy::updateFrom: real(3.73984) thread(kernel=0.03125, user=0) process(kernel=0.03125, user=0)
+2015-04-29T02:54:40  1 DAQ periods of size 2422875 words
+2015-04-29T02:54:41  *** Timing information for UPDATE: real(1.8362) thread(kernel=0, user=0) process(kernel=0, user=0)
+2015-04-29T02:54:41  Average DAE transfer rate = 5278 KByte / s
+2015-04-29T02:54:41  *** Timing information for updateCRPTWithDAE: real(1.84303) thread(kernel=0, user=0) process(kernel=0, user=0)
